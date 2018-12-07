@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'pokemon_hollownormal';
+  src: url('./pokemon-font/pokemon_hollow-webfont.woff2') format('woff2'),
+       url('./pokemon-font/pokemon_hollow-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  font-family: 'pokemon_hollownormal';
+}
+
+.chooseMaster {
+  font-size: 4em;
+  text-align: center;
+  color: silver;
+  padding: 40px;
+  
+}
+
+.chooseMaster {
+  /* window.height: 25vh; */
+  animation: fadeIn 2s infinite;
+}
+
+/* .blankSpace {
+  window.height: 25vh;
+} */
+
+#selector {
+  window.height: 25vh;
+}
+
+
+/* the fadeIn keyframe */
+@keyframes fadeIn {
+
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
