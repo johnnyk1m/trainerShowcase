@@ -1,17 +1,22 @@
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 /* pokemon font */
 @font-face {
   font-family: 'pokemon_hollownormal';
-  src: url("./pokemon-font/pokemon_hollow-webfont.woff2") format("woff2"), url("./pokemon-font/pokemon_hollow-webfont.woff") format("woff");
+  src: url('./pokemon-font/pokemon_hollow-webfont.woff2') format('woff2'),
+       url('./pokemon-font/pokemon_hollow-webfont.woff') format('woff');
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
+
 body {
   background-color: black;
   margin: 10px;
-  padding: 0; }
+  padding: 0;
+}
 
 /* top cinema header */
 .chooseMaster {
@@ -19,55 +24,72 @@ body {
   font-size: 4em;
   text-align: center;
   color: silver;
-  padding: 40px; }
-
+  padding: 40px;
+  
+}
 .card {
-  border: 0; }
-
+  border: 0;
+}
 .card-body {
-  padding: 0; }
+  padding: 0;
+}
 
 #selector {
   text-align: center;
-  display: -webkit-flex; }
-  #selector img {
+  display: -webkit-flex;
+  
+  img {
     text-align: center;
     max-height: 100%;
     max-width: 100%;
-    padding: 0; }
+    padding: 0;
+  }
+}
+
+
+
 
 .chooseMaster {
-  animation: fadeIn 2s infinite; }
+  animation: fadeIn 2s infinite;
+}
 
 /* the fadeIn keyframe */
 @keyframes fadeIn {
+
   0% {
-    opacity: 0; }
+    opacity: 0;
+  }
+
   50% {
-    opacity: 1; }
+    opacity: 1;
+  }
+
   100% {
-    opacity: 0; } }
+    opacity: 0;
+  }
+}
+
 #slide1 {
   animation: slide 0.5s forwards;
-  animation-delay: 2s; }
+  animation-delay: 2s;
+}
 
 #slide2 {
   animation: slide 0.5s forwards;
-  animation-delay: 4s; }
+  animation-delay: 4s;
+}
 
 #slide3 {
   animation: slide 0.5s forwards;
-  animation-delay: 6s; }
+  animation-delay: 6s;
+}
 
 @-webkit-keyframes slide {
-  0% {
-    left: 50; }
-  100% {
-    left: 0; } }
-@keyframes slide {
-  0% {
-    left: 50; }
-  100% {
-    left: 0; } }
+  0% { left: 50; }
+  100% { left: 0; }
+}
 
-/*# sourceMappingURL=main.css.map */
+@keyframes slide {
+  0% { left: 50; }
+  100% { left: 0; }
+}
