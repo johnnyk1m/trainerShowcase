@@ -61,12 +61,12 @@ body {
 
 @-webkit-keyframes slide {
   0% {
-    left: 50; }
+    left: 50px; }
   100% {
     left: 0; } }
 @keyframes slide {
   0% {
-    left: 50; }
+    left: 50px; }
   100% {
     left: 0; } }
 
