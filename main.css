@@ -61,13 +61,13 @@ body {
 
 @-webkit-keyframes slide {
   0% {
-    left: 0px; }
+    left: 50px; }
   100% {
-    left: 200px; }
+    left: 0; } }
 @keyframes slide {
   0% {
-    left: 0px; }
+    left: 50px; }
   100% {
-    left: 300px; }
+    left: 0; } }
 
 /*# sourceMappingURL=main.css.map */
