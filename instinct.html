@@ -8,18 +8,18 @@
     <!-- bootstrap and main css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="masterPage.scss">
 
     <title>Instinct Master</title>
   </head>
 
-  <body>
+  <body background="./img/gymBG.jpg">
 
     <div class="container">
       <!-- this should be like a background or container -->
       <div class="row">
-        <div class="col-md-6">
-          slide from left
+        <div class="col-md-6" id="leftSide" background="./img/instinctBG.png">
+          
           <!-- this will be a hi-res bg -->
           <!-- this should be a card class that is symmetrical, in the middle of the page, beside respective images -->
           <!-- stats pulled from API will FadeIn for the card above  -->
@@ -30,7 +30,7 @@
 
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" id="rightSide">
           slide from right
           <!-- this will be a hi-res bg -->
           <div class="statsPokemon">

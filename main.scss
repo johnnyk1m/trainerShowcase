@@ -25,13 +25,15 @@ body {
   text-align: center;
   color: silver;
   padding: 40px;
-  
-}
-.card {
-  border: 0;
-}
-.card-body {
-  padding: 0;
+  a {
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+  }
+  a:active {
+    color: silver;
+  }
 }
 
 #selector {
@@ -39,7 +41,7 @@ body {
   display: -webkit-flex;
   
   img {
-    text-align: center;
+    // text-align: center;
     max-height: 110%;
     max-width: 110%;
     padding: 10px;
@@ -73,12 +75,12 @@ body {
 }
 
 #slide2 {
-  animation: slide 1s forwards;
+  animation: slide 1.5s forwards;
   // animation-delay: 1s;
 }
 
 #slide3 {
-  animation: slide 1s forwards;
+  animation: slide 2s forwards;
   // animation-delay: 2s;
 }
 
