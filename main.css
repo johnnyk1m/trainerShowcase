@@ -9,7 +9,7 @@
   font-weight: normal;
   font-style: normal; }
 body {
-  background-color: black;
+  background-color: #191919;
   margin: 10px;
   padding: 0; }
 
@@ -38,7 +38,6 @@ body {
 .chooseMaster {
   animation: fadeIn 2s infinite; }
 
-/* the fadeIn keyframe */
 @keyframes fadeIn {
   0% {
     opacity: 0; }
@@ -65,7 +64,11 @@ body {
     left: 0px;
     opacity: 1; } }
 #pogoLink {
-  padding: 20px; }
+  padding: 20px;
+  max-width: 25%;
+  max-height: 25%; }
+  #pogoLink img {
+    padding: 0; }
 
 #pogoLink a {
   text-decoration: none;
@@ -74,7 +77,6 @@ body {
 #pogoLink {
   animation: fadeIn1 15s forwards; }
 
-/* the fadeIn keyframe */
 @keyframes fadeIn1 {
   0% {
     opacity: 0; }

@@ -7,13 +7,13 @@
 @font-face {
   font-family: 'pokemon_hollownormal';
   src: url('./pokemon-font/pokemon_hollow-webfont.woff2') format('woff2'),
-       url('./pokemon-font/pokemon_hollow-webfont.woff') format('woff');
+    url('./pokemon-font/pokemon_hollow-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  background-color: black;
+  background-color: #191919;
   margin: 10px;
   padding: 0;
 }
@@ -25,27 +25,29 @@ body {
   text-align: center;
   color: silver;
   padding: 40px;
+
   a {
     text-decoration: none;
   }
+
   a:visited {
     color: white;
   }
+
   a:active {
     color: silver;
   }
 }
 
+// main middle row
 #selector {
   text-align: center;
   display: -webkit-flex;
-  
+
   img {
-    // text-align: center;
     max-height: 110%;
     max-width: 110%;
     padding: 10px;
-    // opacity: 0;
   }
 }
 
@@ -53,7 +55,7 @@ body {
   animation: fadeIn 2s infinite;
 }
 
-/* the fadeIn keyframe */
+// the main slide-in and fadeIn keyframe
 @keyframes fadeIn {
 
   0% {
@@ -71,23 +73,16 @@ body {
 
 #slide1 {
   animation: slide 1s forwards;
-  // animation-delay: 0s;
 }
 
 #slide2 {
   animation: slide 1.5s forwards;
-  // animation-delay: 1s;
 }
 
 #slide3 {
   animation: slide 2s forwards;
-  // animation-delay: 2s;
 }
 
-// @keyframes slide {
-//   0% { transform: translate(50%, 0%); }
-//   100% { transform: translate(50%, 50%); }
-// }
 
 @keyframes slide {
   0% {
@@ -98,16 +93,23 @@ body {
 
   100% {
     top: 0px;
-    left: 0px; 
+    left: 0px;
     opacity: 1;
   }
 }
 
+// bottom row
 #pogoLink {
   padding: 20px;
+  max-width: 25%;
+  max-height: 25%;
+
+  img {
+    padding: 0;
+  }
 }
 
-#pogoLink a{
+#pogoLink a {
   text-decoration: none;
   color: gray;
 }
@@ -116,7 +118,7 @@ body {
   animation: fadeIn1 15s forwards;
 }
 
-/* the fadeIn keyframe */
+// the fadeIn keyframe for bottom row
 @keyframes fadeIn1 {
 
   0% {
