@@ -49,17 +49,6 @@ body {
   }
 }
 
-// main middle row
-#selector {
-  text-align: center;
-  display: -webkit-flex;
-
-  img {
-    max-height: 110%;
-    max-width: 110%;
-    padding: 10px;
-  }
-}
 
 .chooseMaster {
   animation: fadeIn 3s infinite;
@@ -78,6 +67,19 @@ body {
 
   100% {
     opacity: 0;
+  }
+}
+
+
+// main middle row
+#selector {
+  text-align: center;
+  display: -webkit-flex;
+
+  img {
+    max-height: 110%;
+    max-width: 110%;
+    padding: 10px;
   }
 }
 

@@ -34,14 +34,6 @@ body {
   .chooseMaster a:active {
     color: silver; }
 
-#selector {
-  text-align: center;
-  display: -webkit-flex; }
-  #selector img {
-    max-height: 110%;
-    max-width: 110%;
-    padding: 10px; }
-
 .chooseMaster {
   animation: fadeIn 3s infinite; }
 
@@ -52,6 +44,14 @@ body {
     opacity: 1; }
   100% {
     opacity: 0; } }
+#selector {
+  text-align: center;
+  display: -webkit-flex; }
+  #selector img {
+    max-height: 110%;
+    max-width: 110%;
+    padding: 10px; }
+
 #slide1 {
   animation: slide 1s forwards; }
 

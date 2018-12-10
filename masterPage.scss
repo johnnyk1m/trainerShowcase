@@ -1,10 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* pokemon font */
+@font-face {
+  font-family: 'pokemon_solidnormal';
+  src: url('./pokemon-font/pokemon_solid-webfont.woff2') format('woff2'),
+    url('./pokemon-font/pokemon_solid-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pokemon_hollownormal';
+  src: url('./pokemon-font/pokemon_hollow-webfont.woff2') format('woff2'),
+    url('./pokemon-font/pokemon_hollow-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background: url("./img/gymBG.jpg") no-repeat center center fixed;
-  // background-repeat: no-repeat;
   background-size: cover;
 }
 
-#leftSide {
-  height: 300px;
-  width: 300px;
-} 
+#logo {
+  max-height: 80%;
+    max-width: 80%;
+    padding: 10px;
+    margin: 0;
+}
+
+#logo {
+  animation: fadeIn 3s forwards;
+}
+
+@keyframes fadeIn {
+
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+// nav
+#selector {
+  text-align: center;
+  display: -webkit-flex;
+
+  img {
+    max-height: 100%;
+    max-width: 100%;
+    padding: 10px;
+    margin: auto;
+  }
+}
+
+
+#slide1 {
+  animation: slide 1s forwards;
+}
+
+#slide2 {
+  animation: slide 1.5s forwards;
+}
+
+#slide3 {
+  animation: slide 1.8s forwards;
+}
+
+
+@keyframes slide {
+  0% {
+    top: 0;
+    left: -1000px;
+    opacity: 0;
+  }
+
+  100% {
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+  }
+}
