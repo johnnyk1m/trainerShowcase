@@ -36,7 +36,7 @@ border-radius: 25px;
     margin: 0;
 }
 
-#logo {
+#logo, #leftSide, #rightSide {
   animation: fadeIn 3s forwards;
 }
 
@@ -93,4 +93,9 @@ border-radius: 25px;
     left: 0px;
     opacity: 1;
   }
+}
+
+#leftSide {
+  margin: 10px;
+  padding-left: 40px; 
 }
