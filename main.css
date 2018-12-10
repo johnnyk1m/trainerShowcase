@@ -20,6 +20,9 @@ body {
   margin: 10px;
   padding: 0; }
 
+img {
+  border-radius: 25px; }
+
 /* top cinema header */
 .chooseMaster {
   font-family: 'pokemon_solidnormal';
