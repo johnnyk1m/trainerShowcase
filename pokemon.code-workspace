@@ -4,8 +4,10 @@
 			"path": "."
 		},
 		{
-			"path": "/home/kaizoku-oni/Desktop/myPractice/Keyframes"
+			"path": "/home/kaizoku-oni/Desktop/NYCDA_NOV18/day19/minimalistic wings workshop"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"editor.cursorBlinking": "phase"
+	}
 }
