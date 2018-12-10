@@ -1,9 +1,10 @@
 body {
-  // background: fixed;
+  background: url("./img/gymBG.jpg") no-repeat center center fixed;
+  // background-repeat: no-repeat;
   background-size: cover;
 }
 
 #leftSide {
   height: 300px;
   width: 300px;
-}
+} 

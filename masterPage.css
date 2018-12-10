@@ -1,4 +1,5 @@
 body {
+  background: url("./img/gymBG.jpg") no-repeat center center fixed;
   background-size: cover; }
 
 #leftSide {
