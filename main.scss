@@ -5,6 +5,14 @@
 
 /* pokemon font */
 @font-face {
+  font-family: 'pokemon_solidnormal';
+  src: url('./pokemon-font/pokemon_solid-webfont.woff2') format('woff2'),
+    url('./pokemon-font/pokemon_solid-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'pokemon_hollownormal';
   src: url('./pokemon-font/pokemon_hollow-webfont.woff2') format('woff2'),
     url('./pokemon-font/pokemon_hollow-webfont.woff') format('woff');
@@ -14,17 +22,19 @@
 
 body {
   background-color: #191919;
+  background: url(./img/woodBG.jpg) fixed;
+  background-size: cover;
   margin: 10px;
   padding: 0;
 }
 
 /* top cinema header */
 .chooseMaster {
-  font-family: 'pokemon_hollownormal';
-  font-size: 4em;
+  font-family: 'pokemon_solidnormal';
+  font-size: 6em;
   text-align: center;
   color: silver;
-  padding: 40px;
+  padding: 60px;
 
   a {
     text-decoration: none;
@@ -52,7 +62,7 @@ body {
 }
 
 .chooseMaster {
-  animation: fadeIn 2s infinite;
+  animation: fadeIn 3s infinite;
 }
 
 // the main slide-in and fadeIn keyframe
@@ -80,7 +90,7 @@ body {
 }
 
 #slide3 {
-  animation: slide 2s forwards;
+  animation: slide 1.8s forwards;
 }
 
 
@@ -110,8 +120,10 @@ body {
 }
 
 #pogoLink a {
+  font-family: 'pokemon_hollownormal';
+  font-size: 1.6em;
   text-decoration: none;
-  color: gray;
+  color: white;
 }
 
 #pogoLink {
