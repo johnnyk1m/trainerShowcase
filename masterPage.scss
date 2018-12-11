@@ -43,7 +43,8 @@ img {
 
 #logo,
 #leftSide,
-#rightSide, {
+#rightSide,
+  {
   animation: fadeIn 3.2s forwards;
 }
 
@@ -83,7 +84,7 @@ img {
   img {
     max-height: 100%;
     max-width: 100%;
-    padding: 20px;
+    padding: 10px;
     margin: auto;
   }
 }
@@ -124,7 +125,7 @@ img {
     height: 35em;
     width: 35em;
   }
- 
+
 }
 
 #leftSide {
