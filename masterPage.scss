@@ -23,21 +23,27 @@
 body {
   background: url("./img/gymBG.jpg") no-repeat center center fixed;
   background-size: cover;
+
+  a:hover {
+    opacity: 0.5;
+  }
 }
 
 img {
-border-radius: 25px;
+  border-radius: 25px;
 }
 
 #logo {
   max-height: 80%;
-    max-width: 80%;
-    padding: 10px;
-    margin: 0;
+  max-width: 80%;
+  padding: 10px;
+  margin: 0;
 }
 
-#logo, #leftSide, #rightSide {
-  animation: fadeIn 3s forwards;
+#logo,
+#leftSide,
+#rightSide, {
+  animation: fadeIn 3.2s forwards;
 }
 
 @keyframes fadeIn {
@@ -49,8 +55,18 @@ border-radius: 25px;
   50% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
+  }
+}
+
+#rightSide {
+  padding: 10px;
+
+  img {
+    height: 35em;
+    width: 35em;
   }
 }
 
@@ -62,7 +78,7 @@ border-radius: 25px;
   img {
     max-height: 100%;
     max-width: 100%;
-    padding: 10px;
+    padding: 20px;
     margin: auto;
   }
 }
@@ -97,5 +113,5 @@ border-radius: 25px;
 
 #leftSide {
   margin: 10px;
-  padding-left: 40px; 
+  padding-left: 40px;
 }
