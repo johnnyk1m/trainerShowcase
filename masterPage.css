@@ -15,7 +15,8 @@
   font-style: normal; }
 body {
   background: url("./img/gymBG.jpg") no-repeat center center fixed;
-  background-size: cover; }
+  background-size: cover;
+  font-family: 'pokemon_solidnormal'; }
   body a:hover {
     opacity: 0.5; }
 
@@ -33,6 +34,14 @@ img {
 #rightSide {
   animation: fadeIn 3.2s forwards; }
 
+#leftSide {
+  font-family: 'pokemon_solidnormal';
+  font-size: 2em;
+  justify-content: left; }
+
+.stats {
+  padding-left: 80px; }
+
 @keyframes fadeIn {
   0% {
     opacity: 0; }
@@ -40,12 +49,6 @@ img {
     opacity: 0; }
   100% {
     opacity: 1; } }
-#rightSide {
-  padding: 10px; }
-  #rightSide img {
-    height: 35em;
-    width: 35em; }
-
 #selector {
   text-align: center;
   display: -webkit-flex; }
@@ -73,6 +76,12 @@ img {
     top: 0px;
     left: 0px;
     opacity: 1; } }
+#rightSide {
+  display: -webkit-flex; }
+  #rightSide img {
+    height: 35em;
+    width: 35em; }
+
 #leftSide {
   margin: 10px;
   padding-left: 40px; }
