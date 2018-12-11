@@ -19,6 +19,8 @@ body {
   background-size: cover;
   margin: 10px;
   padding: 0; }
+  body a:hover {
+    opacity: 0.5; }
 
 img {
   border-radius: 25px; }
