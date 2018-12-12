@@ -23,7 +23,7 @@ axios.get("https://fizal.me/pokeapi/api/v2/id/148.json")
 
     let stats = document.querySelector(".stats");
     stats.innerHTML =
-    `<p> ${dragonair.name} </p>
+      `<p> ${dragonair.name} </p>
     <p>HP : ${dragonair.statHP}</p>
     <p>ATK : ${dragonair.statATK}</p>
     <p>DEF : ${dragonair.statDEF}</p>
