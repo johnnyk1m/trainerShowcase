@@ -1,7 +1,7 @@
 "use strict";
 
 
-  axios.get("https://fizal.me/pokeapi/api/v2/id/257.json")
+  axios.get("https://fizal.me/pokeapi/api/v2/id/148.json")
 	.then(response => {
     console.log(response)
     let statHP = document.querySelector(".statHP");
