@@ -4,19 +4,15 @@
   axios.get("https://fizal.me/pokeapi/api/v2/id/257.json")
 	.then(response => {
     console.log(response)
-    const data = response.data;
-
     let statHP = document.querySelector(".statHP");
     let statATK = document.querySelector(".statATK");
     let statDEF = document.querySelector(".statDEF");
     let statSPD = document.querySelector(".statSPD");
-    let statABIL = document.querySelector(".statabil")
 
-    statHP.innerHTML = data.stats[5].base_stat;
-    statATK.innerHTML = data.stats[4].base_stat; 
-    statDEF.innerHTML = data.stats[3].base_stat; 
-    statSPD.innerHTML = data.stats[0].base_stat; 
-    statABIL.innterHTML = data.abilities[0, 1];
+    statHP.innerHTML = response.data.stats[5].base_stat;
+    statATK.innerHTML = response.data.stats[4].base_stat; 
+    statDEF.innerHTML = response.data.stats[3].base_stat; 
+    statSPD.innerHTML = response.data.stats[0].base_stat; 
     console.log(statHP)
 });
 
