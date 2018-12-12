@@ -31,7 +31,8 @@ img {
 
 #logo,
 #leftSide,
-#rightSide {
+#rightSide,
+#masterSide {
   animation: fadeIn 3.2s forwards; }
 
 #leftSide {
