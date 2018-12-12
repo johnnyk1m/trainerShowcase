@@ -1,36 +1,42 @@
 "use strict";
 
-// axios.get("https://api.github.com/users/johnnyk1m?access_token=46ffe20aabe222fb41ddb5d87ecf55ab207f7e75")
-// .then(response => {
-//   const data=response.data;
-//   let gitHub = document.querySelector(".gitHub");
-//   gitHub.src = data.avatar_url;
-//   document.body.appendChild(gitHub);
 
   axios.get("https://fizal.me/pokeapi/api/v2/id/257.json")
 	.then(response => {
     console.log(response)
     let statHP = document.querySelector(".statHP");
-    statHP.innerHTML = response.data.stats[5].base_stat; 
+    let statATK = document.querySelector(".statATK");
+    let statDEF = document.querySelector(".statDEF");
+    let statSPD = document.querySelector(".statSPD");
+
+    statHP.innerHTML = response.data.stats[5].base_stat;
+    statATK.innerHTML = response.data.stats[4].base_stat; 
+    statDEF.innerHTML = response.data.stats[3].base_stat; 
+    statSPD.innerHTML = response.data.stats[0].base_stat; 
     console.log(statHP)
-    // document.body.appendChild(statHp);
 });
 
+
+
+// let blaziken = {
+//   HP: statHP,
+//   ATK: statATK,
+//   DEF: statDEF,
+//   SPD: statSPD,
+//   ABIL: statABIL
+// }
+
+
 // class pokeMaster {
-//   constructor(statHP, statATK, statDEF, statSPD, statABIL) {
-//   this.statHP = statHP;
-//   this.statATK = statATK;
-//   this.statDEF = statDEF;
-//   this.statSPD = statSPD;
-//   this.statABIL = this.statABIL;
+//   constructor(HP, ATK, DEF, SPD, ABIL) {
+//   this.HP = statHP;
+//   this.ATK = statATK;
+//   this.DEF = statDEF;
+//   this.SPD = statSPD;
+//   this.ABIL = statABIL;
 //   }
 // }
 
-// class pokemon extends pokeMaster {
-//   constructor(statHP, statATK, statDEF, statSPD, statABIL) {
-//     super(statHP, statATK, statDEF, statSPD, statABIL);
-//   }
-// }
 
 // function get(name); {
 //   let 
