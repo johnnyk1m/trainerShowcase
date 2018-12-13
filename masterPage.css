@@ -95,8 +95,7 @@ body {
   font-size: 1.2em;
   opacity: 0; }
 
-.moveSet1.mballToggle,
-.moveSet2.mballToggle {
+.moveSet1.mballToggle, .moveSet2.mballToggle {
   animation: mballToggle 1s forwards; }
 
 @keyframes mballToggle {
