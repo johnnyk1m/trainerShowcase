@@ -60,7 +60,7 @@ body {
 
 #leftSide {
   font-family: 'pokemon_solidnormal';
-  font-size: 1.6em;
+  font-size: 1.8em;
   justify-content: left;
   margin: 10px;
   padding-left: 40px;
@@ -71,6 +71,7 @@ body {
 }
 
 #rightSide {
+  // padding: 10px;
   display: -webkit-flex;
 
   img {
@@ -128,6 +129,7 @@ body {
   }
 }
 
+
 .mball {
   animation: shake 2s infinite;
 }
@@ -142,8 +144,7 @@ body {
   opacity: 0;
 }
 
-.moveSet1.mballToggle,
-.moveSet2.mballToggle {
+.moveSet1.mballToggle, .moveSet2.mballToggle {
   animation: mballToggle 1s forwards;
 }
 
