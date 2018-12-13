@@ -28,14 +28,14 @@ body {
   a:hover {
     opacity: 0.5;
   }
-}
 
-img {
-  border-radius: 25px;
-}
+  img {
+    border-radius: 25px;
+  }
 
-.row {
-  margin: 0;
+  .row {
+    margin: 0;
+  }
 }
 
 // nav
@@ -60,11 +60,23 @@ img {
 
 #leftSide {
   font-family: 'pokemon_solidnormal';
-  font-size: 2em;
+  font-size: 1.8em;
   justify-content: left;
+  margin: 10px;
+  padding-left: 40px;
 
   .stats {
     padding-left: 80px;
+  }
+}
+
+#rightSide {
+  // padding: 10px;
+  display: -webkit-flex;
+
+  img {
+    height: 35em;
+    width: 35em;
   }
 }
 
@@ -115,20 +127,4 @@ img {
     left: 0px;
     opacity: 1;
   }
-}
-
-#rightSide {
-  // padding: 10px;
-  display: -webkit-flex;
-
-  img {
-    height: 35em;
-    width: 35em;
-  }
-
-}
-
-#leftSide {
-  margin: 10px;
-  padding-left: 40px;
 }
