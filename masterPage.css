@@ -40,7 +40,7 @@ body {
 
 #leftSide {
   font-family: 'pokemon_solidnormal';
-  font-size: 1.6em;
+  font-size: 1.8em;
   justify-content: left;
   margin: 10px;
   padding-left: 40px; }
@@ -84,38 +84,5 @@ body {
     top: 0px;
     left: 0px;
     opacity: 1; } }
-.mball {
-  animation: shake 2s infinite; }
-
-.mball:hover {
-  opacity: 0.7; }
-
-.moveSet1,
-.moveSet2 {
-  font-size: 1.2em;
-  opacity: 0; }
-
-.moveSet1.mballToggle,
-.moveSet2.mballToggle {
-  animation: mballToggle 1s forwards; }
-
-@keyframes mballToggle {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@keyframes shake {
-  0% {
-    transform: rotate(25deg); }
-  10% {
-    transform: rotate(-50deg); }
-  20% {
-    transform: rotate(50deg); }
-  30% {
-    transform: rotate(-50deg); }
-  40% {
-    transform: rotate(50deg); }
-  50% {
-    transform: rotate(-25deg); } }
 
 /*# sourceMappingURL=masterPage.css.map */

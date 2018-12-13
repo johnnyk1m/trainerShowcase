@@ -19,13 +19,3 @@ class Moveset {
   }
 };
 
-// challenge masterball toggle
-let mball=document.querySelector(".mball");
-let moveset1=document.querySelector(".moveSet1");
-let moveset2=document.querySelector(".moveSet2");
-
-mball.addEventListener('click',(event) => { 
-
-moveset1.classList.toggle("mballToggle");
-moveset2.classList.toggle("mballToggle");
-});
