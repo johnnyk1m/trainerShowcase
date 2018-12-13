@@ -34,11 +34,38 @@ img {
   border-radius: 25px;
 }
 
-#logo {
-  max-height: 80%;
-  max-width: 80%;
-  padding: 10px;
+.row {
   margin: 0;
+}
+
+// nav
+#selector {
+  text-align: center;
+  display: -webkit-flex;
+
+  #logo {
+    max-height: 80%;
+    max-width: 80%;
+    padding: 10px;
+    margin: 0;
+  }
+
+  img {
+    max-height: 100%;
+    max-width: 100%;
+    padding: 10px;
+    margin: auto;
+  }
+}
+
+#leftSide {
+  font-family: 'pokemon_solidnormal';
+  font-size: 2em;
+  justify-content: left;
+
+  .stats {
+    padding-left: 80px;
+  }
 }
 
 #logo,
@@ -46,16 +73,6 @@ img {
 #rightSide,
 #masterSide {
   animation: fadeIn 3.2s forwards;
-}
-
-#leftSide {
-  font-family: 'pokemon_solidnormal';
-  font-size: 2em;
-  justify-content: left;
-}
-
-.stats {
-  padding-left: 80px;
 }
 
 @keyframes fadeIn {
@@ -72,21 +89,6 @@ img {
     opacity: 1;
   }
 }
-
-
-// nav
-#selector {
-  text-align: center;
-  display: -webkit-flex;
-
-  img {
-    max-height: 100%;
-    max-width: 100%;
-    padding: 10px;
-    margin: auto;
-  }
-}
-
 
 #slide1 {
   animation: slide 1s forwards;
