@@ -19,12 +19,10 @@ body {
   font-family: 'pokemon_solidnormal'; }
   body a:hover {
     opacity: 0.5; }
-
-img {
-  border-radius: 25px; }
-
-.row {
-  margin: 0; }
+  body img {
+    border-radius: 25px; }
+  body .row {
+    margin: 0; }
 
 #selector {
   text-align: center;
@@ -42,10 +40,18 @@ img {
 
 #leftSide {
   font-family: 'pokemon_solidnormal';
-  font-size: 2em;
-  justify-content: left; }
+  font-size: 1.8em;
+  justify-content: left;
+  margin: 10px;
+  padding-left: 40px; }
   #leftSide .stats {
     padding-left: 80px; }
+
+#rightSide {
+  display: -webkit-flex; }
+  #rightSide img {
+    height: 35em;
+    width: 35em; }
 
 #logo,
 #leftSide,
@@ -78,14 +84,5 @@ img {
     top: 0px;
     left: 0px;
     opacity: 1; } }
-#rightSide {
-  display: -webkit-flex; }
-  #rightSide img {
-    height: 35em;
-    width: 35em; }
-
-#leftSide {
-  margin: 10px;
-  padding-left: 40px; }
 
 /*# sourceMappingURL=masterPage.css.map */
