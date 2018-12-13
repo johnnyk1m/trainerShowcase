@@ -69,4 +69,3 @@ axios.get("https://pokeapi.co/api/v2/move/25")
   <p>Power : ${mkick.power}</p>
   <p>Accuracy : ${mkick.accuracy}</p>`
 })
-

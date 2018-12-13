@@ -40,7 +40,7 @@ body {
 
 #leftSide {
   font-family: 'pokemon_solidnormal';
-  font-size: 1.6em;
+  font-size: 1.8em;
   justify-content: left;
   margin: 10px;
   padding-left: 40px; }
@@ -95,8 +95,7 @@ body {
   font-size: 1.2em;
   opacity: 0; }
 
-.moveSet1.mballToggle,
-.moveSet2.mballToggle {
+.moveSet1.mballToggle, .moveSet2.mballToggle {
   animation: mballToggle 1s forwards; }
 
 @keyframes mballToggle {
