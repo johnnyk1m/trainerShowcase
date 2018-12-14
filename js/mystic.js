@@ -1,6 +1,6 @@
 "use strict";
 
-axios.get("http://fizal.me/pokeapi/api/v2/id/148.json")
+axios.get("https://fizal.me/pokeapi/api/v2/id/148.json")
   .then(response => {
     console.log(response)
 
