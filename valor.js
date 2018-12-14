@@ -29,7 +29,7 @@ axios.get("https://fizal.me/pokeapi/api/v2/id/325.json")
     <p>DEF : ${spoink.statDEF}</p>
     <p>SPD : ${spoink.statSPD}</p>
     <p style="color: red;">SPECIAL<br> ABILITIES :<br> ${spoink.statABIL}</p></style>`;
-  })
+  });
 
 axios.get("https://pokeapi.co/api/v2/move/129")
   .then(response => {
@@ -41,14 +41,14 @@ axios.get("https://pokeapi.co/api/v2/move/129")
         response.data.power,
         response.data.accuracy,
       );
-
+        console.log(swift)
       let moveSet1 = document.querySelector(".moveSet1");
       moveSet1.innerHTML =
     `<p>Name: ${swift.moveName} </p>
     <p>Priority : ${swift.priority}</p>
     <p>Power : ${swift.power}</p>
     <p>Accuracy : ${swift.accuracy}</p>`
-  })
+  });
 
   axios.get("https://pokeapi.co/api/v2/move/94")
   .then(response => {
@@ -67,4 +67,4 @@ axios.get("https://pokeapi.co/api/v2/move/129")
     <p>Priority : ${psychic.priority}</p>
     <p>Power : ${psychic.power}</p>
     <p>Accuracy : ${psychic.accuracy}</p>`
-  })
+  });
