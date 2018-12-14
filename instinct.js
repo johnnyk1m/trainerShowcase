@@ -29,7 +29,7 @@ axios.get("https://fizal.me/pokeapi/api/v2/id/257.json")
     <p>DEF : ${blaziken.statDEF}</p>
     <p>SPD : ${blaziken.statSPD}</p>
     <p style="color: gold;">SPECIAL<br> ABILITIES :<br> ${blaziken.statABIL}</p></style>`;
-  })
+  });
 
 
 axios.get("https://pokeapi.co/api/v2/move/7")
@@ -49,7 +49,7 @@ axios.get("https://pokeapi.co/api/v2/move/7")
   <p>Priority : ${fpunch.priority}</p>
   <p>Power : ${fpunch.power}</p>
   <p>Accuracy : ${fpunch.accuracy}</p>`
-})
+});
 
 axios.get("https://pokeapi.co/api/v2/move/25")
 .then(response => {
@@ -68,4 +68,4 @@ axios.get("https://pokeapi.co/api/v2/move/25")
   <p>Priority : ${mkick.priority}</p>
   <p>Power : ${mkick.power}</p>
   <p>Accuracy : ${mkick.accuracy}</p>`
-})
+});
