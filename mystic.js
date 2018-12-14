@@ -32,7 +32,7 @@ axios.get("https://fizal.me/pokeapi/api/v2/id/148.json")
   });
 
 
-axios.get("http://pokeapi.co/api/v2/move/35")
+axios.get("https://pokeapi.co/api/v2/move/35")
   .then(response => {
     // console.log(response)
 
